@@ -39,6 +39,8 @@ export const SAVE_BOOK = gql`
         description
         title
         link
+        pageCount
+        publishedDate 
       }
     }
   }
@@ -58,6 +60,8 @@ export const REMOVE_BOOK = gql`
         description
         title
         link  
+        pageCount
+        publishedDate 
       }
     }
   }
